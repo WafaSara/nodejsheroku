@@ -1,4 +1,5 @@
 const express = require('express');
+const app  = express();
 
 var server = app.listen(process.env.PORT || 8080, function () {
     var port = server.address().port;
